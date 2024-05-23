@@ -1,0 +1,71 @@
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(184, 22, 233);
+    
+}
+
+/* Style the header */
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+
+/* Style the About Us section */
+.about-us {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    
+}
+
+/* Style the Team section */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.team-member {
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
